@@ -28,8 +28,8 @@ status: &status
     value: 'insured'
   - name: 'Not Insured'
     value: 'not-insured'
-siteurl: 'https://ecwsimp:W3lcome$$@imp-t.healthcare.gov'
-searchurl: 'https://search.imp.healthcare.gov'
+siteurl: ''
+searchurl: ''
 
 
 # Custom Collections
@@ -39,12 +39,12 @@ jekyll_collect:
 
 # Settings for Google Analytics post sorting
 jekyll_ga:
-  host: '10.153.154.143'
-  port: '8773'
-  service_account_email: 1022490775759@developer.gserviceaccount.com
-  key_file: privatekey.p12
-  key_secret: notasecret
-  profileID: ga:71126354
+  host: ''
+  port: ''
+  service_account_email: 
+  key_file: 
+  key_secret: 
+  profileID: 
   start: last month         # Beginning of report
   end: now                  # End of report
   metric: ga:pageviews      # Metric code
@@ -71,10 +71,10 @@ jekyll_sort:
 prose:
   media: 'assets'
   rooturl: "_posts"
-  siteurl: "https://ecwsimp:W3lcome$$@imp-t.healthcare.gov/"
-  relativeLinks: "https://ecwsimp:W3lcome$$@imp-t.healthcare.gov/resources/prose/relativeLinks.jsonp"
+  siteurl: ""
+  relativeLinks: ""
   site:
-    tags: "https://ecwsimp:W3lcome$$@imp-t.healthcare.gov/api/tags.jsonp"
+    tags: ""
   metadata:
     _posts/articles:
       - name: "title"
@@ -142,12 +142,12 @@ prose:
         field:
           element: "multiselect"
           label: "Topics"
-          options: "https://ecwsimp:W3lcome$$@imp-t.healthcare.gov/resources/topics.jsonp?callback=topics"
+          options: ""
       - name: "questions"
         field:
           element: "multiselect"
           label: "Related questions"
-          options: "https://ecwsimp:W3lcome$$@imp-t.healthcare.gov/resources/questions.jsonp?callback=questions"
+          options: ""
       - name: "question-header"
         field:
           element: "text"
@@ -158,7 +158,7 @@ prose:
         field:
           element: "multiselect"
           label: "Related"
-          options: "https://ecwsimp:W3lcome$$@imp-t.healthcare.gov/resources/articles.jsonp?callback=articles"
+          options: ""
       - name: "audience"
         field:
           element: "multiselect"
@@ -410,7 +410,7 @@ prose:
         field:
           element: "multiselect"
           label: "Topics"
-          options: "https://ecwsimp:W3lcome$$@imp-t.healthcare.gov/resources/topics.jsonp?callback=topics"
+          options: ""
     _posts/help:
       - name: "title"
         field:
