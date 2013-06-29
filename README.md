@@ -4,7 +4,7 @@ This project includes the source code and content for the healthcare.gov website
 
 
 ==============================================
-Healthcare.Gov Local Installation Requirements
+Local Installation Requirements
 ==============================================
 
 Installing the code in this repository should be fairly straight-forward, but there are a few requirements you’ll need to make sure your system has before you start:
